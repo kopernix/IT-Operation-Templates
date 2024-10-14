@@ -25,6 +25,51 @@ These templates are short and concise, serving as a **starting point**. They don
 6. **Remember you're working with people, not just machines**: Keep communication clear and human-centered.
 7. And before you start documenting procedures... **serve yourself a nice cup of coffee** ☕!
 
+## Project Structure
+
+The repository is organized in the following structure to keep templates well-organized and easily accessible:
+
+```
+IT-Operation-Templates/
+│
+├── README.md
+├── LICENSE
+├── changelog.md
+├── templates/
+│   ├── procedures/
+│   │   ├── procedure_template.md
+│   │   ├── backup_procedure.md
+│   │   └── deployment_procedure.md
+│   │
+│   ├── incidents/
+│   │   ├── incident_template.md
+│   │   ├── server_outage_incident.md
+│   │   └── security_breach_incident.md
+│   │
+│   ├── others/
+│   │   ├── escalation_process.md
+│   │   ├── maintenance_window.md
+│   │   └── monitoring_plan.md
+│   │
+└── └── examples/
+      ├── example_procedure_completed.md
+      └── example_incident_report_completed.md
+```
+
+
+### Folder Descriptions:
+
+- **`README.md`**: The main file explaining the project and how to use it.
+- **`LICENSE`**: The licensing file that describes the terms of use (e.g., CC BY-SA 4.0).
+- **`changelog.md`**: Contains all changes made to the project, following the [Keep a Changelog](https://keepachangelog.com/) format.
+- **`templates/`**: The directory where all templates are stored.
+  - **`procedures/`**: Templates for IT operational procedures such as backups, deployment, etc.
+  - **`incidents/`**: Templates for managing IT incidents such as server outages and security breaches.
+  - **`others/`**: Miscellaneous templates, including escalation processes, maintenance windows, and monitoring plans.
+- **`examples/`**: Examples of completed templates to help guide users on how to fill them out.
+
+Feel free to explore and adapt these templates according to your organization's needs.
+
 ## Contributions
 
 Contributions are welcome! Feel free to open issues or submit pull requests with suggestions for new templates or improvements.
