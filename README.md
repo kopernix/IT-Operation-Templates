@@ -37,19 +37,19 @@ IT-Operation-Templates/
 ├── changelog.md
 ├── templates/
 │   ├── procedures/
-│   │   ├── procedure_template.md
-│   │   ├── backup_procedure.md
-│   │   └── deployment_procedure.md
+│   │   ├── 01_procedure_template.md
+│   │   ├── 20_backup_procedure.md
+│   │   └── 30_deployment_procedure.md
 │   │
 │   ├── incidents/
-│   │   ├── incident_template.md
-│   │   ├── server_outage_incident.md
-│   │   └── security_breach_incident.md
+│   │   ├── 01_incident_template.md
+│   │   ├── 50_server_outage_incident.md
+│   │   └── 60_security_breach_incident.md
 │   │
 │   ├── others/
-│   │   ├── escalation_process.md
-│   │   ├── maintenance_window.md
-│   │   └── monitoring_plan.md
+│   │   ├── 20_escalation_process.md
+│   │   ├── 30_maintenance_window.md
+│   │   └── 40_monitoring_plan.md
 │   │
 └── └── examples/
       ├── example_procedure_completed.md
@@ -69,6 +69,21 @@ IT-Operation-Templates/
 - **`examples/`**: Examples of completed templates to help guide users on how to fill them out.
 
 Feel free to explore and adapt these templates according to your organization's needs.
+
+
+## Naming Convention for Templates
+
+To maintain an organized and scalable structure, templates follow a specific numbering and naming convention:
+
+- **00 to 09**: Reserved for template foundations. These are templates used to create other procedure templates (e.g., `00_procedure_template.md`).
+- **10 to 19**: Reserved for emergency or temporary procedures (e.g., `10_temporary_procedure.md`).
+- **20 to 49**: For standard operational procedures (e.g., `20_backup_procedure.md`, `30_deployment_procedure.md`).
+- **50 to 79**: Reserved for incident management templates (e.g., `50_server_outage_incident.md`, `60_security_breach_incident.md`).
+- **80 to 99**: For archived or older versions of templates that are no longer actively in use but need to be kept for reference (e.g., `80_old_backup_procedure.md`).
+- **Z0 to Z9**: Reserved for deprecated templates that are no longer recommended and kept for historical purposes only (e.g., `Z0_deprecated_procedure.md`).
+
+This system allows for flexibility and ensures that each template is clearly categorized and easy to locate. When a procedure is removed or deprecated, it will be moved to the appropriate range.
+
 
 ## Contributions
 
