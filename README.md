@@ -32,17 +32,14 @@ The repository is organized in the following structure to keep templates well-or
 ```
 IT-Operation-Templates/
 │
-├── README.md
-├── LICENSE
-├── changelog.md
-├── templates/
+├── docs/                       # Directorio común para ambos
 │   ├── procedures/
-│   │   ├── 01_procedure_template.md
+│   │   ├── 00_procedure_template.md
 │   │   ├── 20_backup_procedure.md
 │   │   └── 30_deployment_procedure.md
 │   │
 │   ├── incidents/
-│   │   ├── 01_incident_template.md
+│   │   ├── 00_incident_template.md
 │   │   ├── 50_server_outage_incident.md
 │   │   └── 60_security_breach_incident.md
 │   │
@@ -51,9 +48,16 @@ IT-Operation-Templates/
 │   │   ├── 30_maintenance_window.md
 │   │   └── 40_monitoring_plan.md
 │   │
-└── └── examples/
-      ├── example_procedure_completed.md
-      └── example_incident_report_completed.md
+│   └── examples/
+│       ├── example_procedure_completed.md
+│       └── example_incident_report_completed.md
+│
+├── mkdocs.yml                   # Your MkDocs config
+├── docusaurus.config.js         # Your Docusaurus config
+├── LICENSE
+├── changelog.md
+└── README.md                     
+
 ```
 
 
