@@ -1,6 +1,6 @@
 # Procedure: [Procedure Name]
 
-**Version:** v1.0.0-en  
+**Version:** v0.1.0-en  
 **Creation Date:** [YYYY/MM/DD]  
 **Author:** [Author's Email] - [Author's Name]  
 **Company:** [Your Company Name]  
@@ -66,8 +66,9 @@ All notable changes to this template will be documented in this section, followi
 
 ## Possible Improvements
 
-- [x] Completed  
-- [ ] Pending  
+- (✓) Completed  
+- ( ) Pending
+- (!) Priority 
 
 ### Improvement Title (✓)
 
@@ -103,7 +104,7 @@ All notable changes to this template will be documented in this section, followi
 
 ---
 
-**Procedure template version:** v1.0.0-en (do not edit)
+**Procedure template version:** v1.0.0-en (do not edit on final procedure)
 
 ---
 
