@@ -110,9 +110,8 @@ All notable changes to this template will be documented in this section, followi
 
 ## License
 
-This procedure template is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). 
+This procedure template is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). 
 
-You must attribute the original author and keep this section unmodified, with a link to the latest version available at [GitHub](https://github.com/[Author's GitHub Username]).
+You must attribute the original author [Joan Puiggali aka Kopernix](https://github.com/kopernix) and keep this section unmodified, with a link to the latest version available at [GitHub](https://github.com/kopernix/IT-Operation-Templates).
 
-Created by [Author's Name](https://github.com/[Author's GitHub Username]).
 
